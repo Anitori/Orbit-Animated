@@ -1,28 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Orbit-Animation</title>
     <link href="style.css" rel="stylesheet">
 </head>
-<body>
+<body id="body">
 <div id="container">
+    <div id="lateral">
+
+        <button class="botones"> 1 </button>
+        <button class="botones"> 2 </button>
+        <button class="botones"> 3 </button>
+        <button class="botones"> 4 </button>
+        <button class="botones"> 5 </button>
+
+    </div>
 
 
     <!-- //////////////////////////////////////////////////////////////////////////// -->
     <!-- Star white with balls blacks -->
     <!-- //////////////////////////////////////////////////////////////////////////// -->
 
-    <!-- ((( ORBIT ))) -->
+    <!-- ((( ORBIT ))) --> 
     <div class="orbit-box">
-        <button class="menu__item active">
+        
+        <button class="menu__item">
         <svg viewBox="-80 0 300 200" width="450" height="500" id="orbit">
   
           <!-- Dibujo el circulo por completo -->
-  
-          <circle cx="80" cy="80" r="50" class="orbit-circle" fill="white" />
+        <circle cx="80" cy="80" r="50" class="orbit-circle" fill="white" />
 
          <!-- //////////////// Ball 1 ///////////////////// -->
 
@@ -34,7 +43,7 @@
   
             <!-- Dibujo la bola -->
 
-            <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="black">
+            <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="black" class="bola">
   
               <!-- Animo la bola -->
   
@@ -49,7 +58,7 @@
    
           <g transform=" matrix(0.866, -1.19, 0.25, 0.433, 80, 80)" class="ball">
   
-          <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="black">
+          <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="black" class="bola">
   
            <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="0.8s" repeatCount="indefinite" />
            </path>
@@ -59,7 +68,7 @@
    
            <g transform=" matrix(0.94, -1.59, 0.25, 0.44, 80, 80)" class="ball">
   
-            <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="black">
+            <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="black" class="bola">
     
              <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="0.75s" repeatCount="indefinite" />
              </path>
@@ -69,7 +78,7 @@
    
            <g transform=" matrix(1, -0.39, 0.35, 0.4, 80, 80)" class="ball">
   
-            <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="black">
+            <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="black" class="bola">
     
              <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="0.7s" repeatCount="indefinite" />
              </path>
@@ -79,7 +88,7 @@
    
            <g transform=" matrix(1, -0.4, 0.35, -1, 80, 80)" class="ball">
   
-            <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="black">
+            <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="black" class="bola">
     
              <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="0.65s" repeatCount="indefinite" />
              </path>
@@ -89,7 +98,7 @@
    
            <g transform=" matrix(1.3, -0.4, 0.35, -0.5, 80, 80)" class="ball">
   
-            <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="black">
+            <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="black" class="bola">
     
              <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="0.6s" repeatCount="indefinite" />
              </path>
@@ -99,7 +108,7 @@
    
            <g transform=" matrix(0.6, -1, 1.1, -1, 80, 80)" class="ball">
   
-            <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="black">
+            <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="black" class="bola">
     
              <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="0.55s" repeatCount="indefinite" />
              </path>
@@ -109,7 +118,7 @@
 
             <g transform=" matrix(1, -0.91, 1.25, -0.4, 80, 80)" class="ball">
   
-                <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="black">
+                <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="black" class="bola">
         
                  <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="0.5s" repeatCount="indefinite" />
                  </path>
@@ -117,123 +126,12 @@
   
           <!-- Dibujo medio circulo para que no se vea la bola por delante y simular que pasa por atras -->
   
-          <path d="M 50,0 A 50,50 0 0,0 -50,0Z" transform="matrix(0.866, -0.5, 0.5, 0.866, 80, 80)" fill="white" />
+          <path d="M 50,0 A 50,50 0 0,0 -50,0Z" transform="matrix(0.866, -0.5, 0.5, 0.866, 80, 80)" fill="white" class="half-circle"/>
         </svg>
     </button>
 
 
-    <!-- //////////////////////////////////////////////////////////////////////////// -->
-    <!-- Star black with balls white -->
-    <!-- //////////////////////////////////////////////////////////////////////////// -->
-
-       <button id="botonDePrueba">  Linea 129 </button> 
-
-    <button class="menu__item active">
-        <svg viewBox="-80 0 300 200" width="450" height="500" id="orbit2">
-  
-            <!-- Dibujo el circulo por completo -->
-    
-            <circle cx="80" cy="80" r="50" class="orbit-circle" id="circle-white" fill="black" />
-  
-           <!-- //////////////// Ball 1 ///////////////////// -->
-  
-            <!-- Creo y le doy perspectiva a la bola -->
-            <!-- El 4to valor me cambia la dirección de rotación si tiene valor negativo -->
-  
-      
-            <g transform=" matrix(0.866, -0.9, 0.25, 0.433, 80, 80)" class="ball">
-    
-              <!-- Dibujo la bola -->
-  
-                <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="white">
-    
-                <!-- Animo la bola -->
-    
-                <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="0.85s" repeatCount="indefinite" />
-              </path>
-            </g>
-    
-  
-  
-  
-             <!-- //////////////// Ball 2///////////////////// -->
-     
-            <g transform=" matrix(0.866, -1.19, 0.25, 0.433, 80, 80)" class="ball">
-    
-            <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="white">
-    
-             <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="0.8s" repeatCount="indefinite" />
-             </path>
-            </g>
-    
-             <!-- //////////////// Ball 3 ///////////////////// -->
-     
-             <g transform=" matrix(0.94, -1.59, 0.25, 0.44, 80, 80)" class="ball">
-    
-              <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="white">
-      
-               <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="0.75s" repeatCount="indefinite" />
-               </path>
-              </g>
-    
-               <!-- //////////////// Ball 4 ///////////////////// -->
-     
-             <g transform=" matrix(1, -0.39, 0.35, 0.4, 80, 80)" class="ball">
-    
-              <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="white">
-      
-               <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="0.7s" repeatCount="indefinite" />
-               </path>
-              </g>
-  
-               <!-- //////////////// Ball 5 ///////////////////// -->
-     
-             <g transform=" matrix(1, -0.4, 0.35, -1, 80, 80)" class="ball">
-    
-              <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="white">
-      
-               <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="0.65s" repeatCount="indefinite" />
-               </path>
-              </g>
-  
-               <!-- //////////////// Ball 6 ///////////////////// -->
-     
-             <g transform=" matrix(1.3, -0.4, 0.35, -0.5, 80, 80)" class="ball">
-    
-              <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="white">
-      
-               <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="0.6s" repeatCount="indefinite" />
-               </path>
-              </g>
-  
-              <!-- //////////////// Ball 7 ///////////////////// -->
-     
-             <g transform=" matrix(0.6, -1, 1.1, -1, 80, 80)" class="ball">
-    
-              <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="white">
-      
-               <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="0.55s" repeatCount="indefinite" />
-               </path>
-              </g>
-  
-              <!-- //////////////// Ball 8 ///////////////////// -->
-  
-              <g transform=" matrix(1, -0.91, 1.25, -0.4, 80, 80)" class="ball">
-    
-                  <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="white">
-          
-                   <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="0.5s" repeatCount="indefinite" />
-                   </path>
-                  </g>
-    
-            <!-- Dibujo medio circulo para que no se vea la bola por delante y simular que pasa por atras -->
-    
-                <path d="M 50,0 A 50,50 0 0,0 -50,0Z" transform="matrix(0.866, -0.5, 0.5, 0.866, 80, 80)" fill="black" />
-            
-    
-            
-          </svg>
-    </button>
+   
   
   
   
