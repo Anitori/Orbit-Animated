@@ -12,7 +12,6 @@ const change = () => {
         document.getElementsByClassName("half-circle")[0].style.fill = "white";
     
         document.getElementsByClassName("bola")[0].style.fill = "black";
-        document.getElementsByClassName("bola")[0].style.stroke = "black";
         document.getElementsByClassName("bola")[1].style.fill = "black";
         document.getElementsByClassName("bola")[2].style.fill = "black";
         document.getElementsByClassName("bola")[3].style.fill = "black";
@@ -21,16 +20,17 @@ const change = () => {
         document.getElementsByClassName("bola")[6].style.fill = "black";
         document.getElementsByClassName("bola")[7].style.fill = "black";
 
-        document.getElementsByClassName("bola")[0].style.stroke = "black";
-        document.getElementsByClassName("bola")[1].style.stroke = "black";
-        document.getElementsByClassName("bola")[2].style.stroke = "black";
-        document.getElementsByClassName("bola")[3].style.stroke = "black";
-        document.getElementsByClassName("bola")[4].style.stroke = "black";
-        document.getElementsByClassName("bola")[5].style.stroke = "black";
-        document.getElementsByClassName("bola")[6].style.stroke = "black";
-        document.getElementsByClassName("bola")[7].style.stroke = "black";
+        // document.getElementsByClassName("bola")[0].style.stroke = "black";
+        // document.getElementsByClassName("bola")[1].style.stroke = "black";
+        // document.getElementsByClassName("bola")[2].style.stroke = "black";
+        // document.getElementsByClassName("bola")[3].style.stroke = "black";
+        // document.getElementsByClassName("bola")[4].style.stroke = "black";
+        // document.getElementsByClassName("bola")[5].style.stroke = "black";
+        // document.getElementsByClassName("bola")[6].style.stroke = "black";
+        // document.getElementsByClassName("bola")[7].style.stroke = "black";
 
-        document.getElementsByClassName("orbit-circle")[0].style.stroke = "white";
+
+        document.getElementsByClassName("orbit-circle")[0].style.stroke = "black";
         
     } else {
         tipo.fill = "black";
@@ -107,7 +107,7 @@ const cambioDos = () =>{
         document.getElementsByClassName("bola")[6].style.stroke = "black";
         document.getElementsByClassName("bola")[7].style.stroke = "black";
 
-        document.getElementsByClassName("orbit-circle")[0].style.stroke = "gray";
+        document.getElementsByClassName("orbit-circle")[0].style.stroke = "black";
 }
 
 const cambioTres = () =>{
