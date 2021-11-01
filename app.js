@@ -7,6 +7,7 @@ const change = () => {
     if(tipo.fill == "black"){
         tipo.fill = "white";
         
+        
         document.getElementsByClassName("orbit-circle")[0].style.fill = "white";
         document.getElementsByClassName("half-circle")[0].style.fill = "white";
     
