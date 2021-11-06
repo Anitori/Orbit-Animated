@@ -7,16 +7,16 @@
     <title>Orbit-Animation</title>
     <link href="style.css" rel="stylesheet">
 </head>
+
 <body id="body">
 <div id="container">
     <div id="lateral">
-
         <button class="botones"> 1 </button>
         <button class="botones"> 2 </button>
         <button class="botones"> 3 </button>
         <button class="botones"> 4 </button>
         <button class="botones"> 5 </button>
-
+        <button class="botones"> 6 </button>
     </div>
 
 
@@ -123,6 +123,16 @@
                  <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="0.5s" repeatCount="indefinite" />
                  </path>
                 </g>
+
+                <!-- //////////////// Ball 9 ///////////////////// -->
+
+            <g transform=" matrix(1.4, -1.31, 0.95, -0.4, 80, 80)" class="ball">
+  
+              <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="black" class="bola">
+      
+               <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="0.85s" repeatCount="indefinite" />
+               </path>
+              </g>
   
           <!-- Dibujo medio circulo para que no se vea la bola por delante y simular que pasa por atras -->
   
