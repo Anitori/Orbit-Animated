@@ -124,17 +124,18 @@ const cambioDos = () =>{
 }
 
 const cambioTres = () =>{
-        document.getElementsByClassName("orbit-circle")[0].style.fill = "black";
-        document.getElementsByClassName("half-circle")[0].style.fill = "black";
+        document.getElementsByClassName("orbit-circle")[0].style.fill = "#EAFAF1";
+        document.getElementsByClassName("half-circle")[0].style.fill = "#EAFAF1";
 
-        document.getElementsByClassName("bola")[0].style.fill = "#ffb457";
-        document.getElementsByClassName("bola")[1].style.fill = "#ff96bd";
-        document.getElementsByClassName("bola")[2].style.fill = "#9999fb";
-        document.getElementsByClassName("bola")[3].style.fill = "#ffe797";
-        document.getElementsByClassName("bola")[4].style.fill = "#cffff1";
-        document.getElementsByClassName("bola")[5].style.fill = "#ccc157";
-        document.getElementsByClassName("bola")[6].style.fill = "#ccf157";
-        document.getElementsByClassName("bola")[7].style.fill = "white";
+        document.getElementsByClassName("bola")[0].style.fill = "#186A3B";
+        document.getElementsByClassName("bola")[1].style.fill = "#1D8348";
+        document.getElementsByClassName("bola")[2].style.fill = "#239B56";
+        document.getElementsByClassName("bola")[3].style.fill = "#28B463";
+        document.getElementsByClassName("bola")[4].style.fill = "#2ECC71";
+        document.getElementsByClassName("bola")[5].style.fill = "#58D68D";
+        document.getElementsByClassName("bola")[6].style.fill = "#82E0AA";
+        document.getElementsByClassName("bola")[7].style.fill = "#ABEBC6";
+        document.getElementsByClassName("bola")[8].style.fill = "#D5F5E3";
 
         document.getElementsByClassName("bola")[0].style.stroke = "black";
         document.getElementsByClassName("bola")[1].style.stroke = "black";
@@ -144,11 +145,10 @@ const cambioTres = () =>{
         document.getElementsByClassName("bola")[5].style.stroke = "black";
         document.getElementsByClassName("bola")[6].style.stroke = "black";
         document.getElementsByClassName("bola")[7].style.stroke = "black";
+        document.getElementsByClassName("bola")[8].style.stroke = "black";
 
-        document.getElementsByClassName("bola")[8].style.fill = "#fce797";
-    document.getElementsByClassName("bola")[8].style.stroke = "black";
 
-        document.getElementsByClassName("orbit-circle")[0].style.stroke = "white";
+        document.getElementsByClassName("orbit-circle")[0].style.stroke = "black";
 }
 
 const cambioCuatro = () =>{
