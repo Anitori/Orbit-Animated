@@ -236,6 +236,41 @@ const cambioSeis = () =>{
     document.getElementsByClassName("orbit-circle")[0].style.stroke = "black";
 }
 
+const cambioSiete = () =>{
+
+  
+    document.getElementsByClassName("orbit-circle")[0].style.fill = "white";
+    document.getElementsByClassName("half-circle")[0].style.fill = "white";
+
+    document.getElementsByClassName("bola")[0].style.fill = "#55efc4";
+    document.getElementsByClassName("bola")[1].style.fill = "#00b894";
+    document.getElementsByClassName("bola")[2].style.fill = "#ffeaa7";
+    document.getElementsByClassName("bola")[3].style.fill = "#fdcb6e";
+    document.getElementsByClassName("bola")[4].style.fill = "#81ecec";
+    document.getElementsByClassName("bola")[5].style.fill = "#00cec9";
+    document.getElementsByClassName("bola")[6].style.fill = "#fab1a0";
+    document.getElementsByClassName("bola")[7].style.fill = "#e17055";
+    document.getElementsByClassName("bola")[8].style.fill = "#74b9ff";
+    
+    document.getElementsByClassName("bola")[0].style.stroke = "black";
+    document.getElementsByClassName("bola")[1].style.stroke = "black";
+    document.getElementsByClassName("bola")[2].style.stroke = "black";
+    document.getElementsByClassName("bola")[3].style.stroke = "black";
+    document.getElementsByClassName("bola")[4].style.stroke = "black";
+    document.getElementsByClassName("bola")[6].style.stroke = "black";
+    document.getElementsByClassName("bola")[5].style.stroke = "black";
+    document.getElementsByClassName("bola")[7].style.stroke = "black";
+    document.getElementsByClassName("bola")[8].style.stroke = "black";
+    
+    document.getElementsByClassName("orbit-circle")[0].style.stroke = "black";
+
+    document.getElementById("body").style.background = "#a29bfe"
+
+    document.getElementsByClassName("star")[0].style.display = "flex";
+
+
+}
+
 
  
 botonn[0].addEventListener("click",() => {
@@ -265,6 +300,9 @@ botones[4].addEventListener("click",() => {
     botones[5].addEventListener("click",() => {
         cambioSeis()
         })
+        botones[6].addEventListener("click",() => {
+            cambioSiete()
+            })
 
 
 

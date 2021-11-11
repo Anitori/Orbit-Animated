@@ -9,8 +9,37 @@ html {
 
 body{
     background-color: #fabb88;
+    transition: .8s;
 }
 
+#star-content{
+    
+    position: absolute;
+    z-index: -100;
+    border: solid 1px red;
+    left: 0px;
+}
+
+.star{
+    display: none;
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 900px;
+    position: absolute;
+    left: 400px;
+    top: 50px;
+}
+
+.uno, .dos, .tres, .siete, .ocho, .nueve, .diez, .once, .doce, .trece, .catorce{
+    margin-left: 6px;
+    /* border: solid 1px red; */
+}
+
+.cuatro, .cinco , .seis{
+    margin-left: 15px;
+    border: solid 1px yellow;
+}
 
 #container{
     display: flex;
@@ -44,7 +73,7 @@ body{
 
 
 .botones:focus{
-    background-color: #9999fb;
+    background-color:#55efc4;
     transition: 0.5s;
  
  }
