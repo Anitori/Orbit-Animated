@@ -8,8 +8,13 @@ html {
 }
 
 body{
+    width: 100%;
+    height: 635px;
     background-color: #fabb88;
     transition: .8s;
+    box-shadow: 21px 16px 133px -1px rgba(0,0,0,0.41) inset;
+    -webkit-box-shadow: 21px 16px 133px -1px rgba(0,0,0,0.41) inset;
+    -moz-box-shadow: 21px 16px 133px -1px rgba(0,0,0,0.41) inset;
 }
 
 #star-content{
@@ -23,22 +28,70 @@ body{
 .star{
     display: none;
     background-color: white;
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     border-radius: 900px;
+    transition: 4s;
+   
+    
+}
+
+.uno{
+    position: absolute;
+    left: 300px;
+    top: 100px;
+    transition: 4s;
+}
+.dos{
+    position: absolute;
+    left: 200px;
+    top: 250px;
+}
+.tres{
     position: absolute;
     left: 400px;
-    top: 50px;
+    top: 350px;
+}
+.cuatro{
+    position: absolute;
+    left: 600px;
+    top: 550px;
+}
+.cinco{
+    position: absolute;
+    left: 250px;
+    top: 550px;
+}
+.seis{
+    position: absolute;
+    left: 1000px;
+    top: 120px;
+}
+.siete{
+    position: absolute;
+    left: 1150px;
+    top: 450px;
+}
+.ocho{
+    position: absolute;
+    left: 800px;
+    top: 450px;
 }
 
-.uno, .dos, .tres, .siete, .ocho, .nueve, .diez, .once, .doce, .trece, .catorce{
-    margin-left: 6px;
-    /* border: solid 1px red; */
+.nueve{
+    position: absolute;
+    left: 1250px;
+    top: 210px;
 }
-
-.cuatro, .cinco , .seis{
-    margin-left: 15px;
-    border: solid 1px yellow;
+.diez{
+    position: absolute;
+    left: 1000px;
+    top: 310px;
+}
+.once{
+    position: absolute;
+    left: 1000px;
+    top: 580px;
 }
 
 #container{

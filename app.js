@@ -267,8 +267,18 @@ const cambioSiete = () =>{
     document.getElementById("body").style.background = "#a29bfe"
 
     document.getElementsByClassName("star")[0].style.display = "flex";
+    document.getElementsByClassName("star")[1].style.display = "flex";
+    document.getElementsByClassName("star")[2].style.display = "flex";
+    document.getElementsByClassName("star")[3].style.display = "flex";
+    document.getElementsByClassName("star")[4].style.display = "flex";
+    document.getElementsByClassName("star")[5].style.display = "flex";
+    document.getElementsByClassName("star")[6].style.display = "flex";
+    document.getElementsByClassName("star")[7].style.display = "flex";
+    document.getElementsByClassName("star")[8].style.display = "flex";
+    document.getElementsByClassName("star")[9].style.display = "flex";
+    document.getElementsByClassName("star")[10].style.display = "flex";
 
-
+    document.getElementsByClassName("star")[0].style.transition = "4s"
 }
 
 
