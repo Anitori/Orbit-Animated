@@ -8,13 +8,9 @@ html {
 }
 
 body{
-    width: 100%;
-    height: 635px;
     background-color: #fabb88;
     transition: .8s;
-    box-shadow: 21px 16px 133px -1px rgba(0,0,0,0.41) inset;
-    -webkit-box-shadow: 21px 16px 133px -1px rgba(0,0,0,0.41) inset;
-    -moz-box-shadow: 21px 16px 133px -1px rgba(0,0,0,0.41) inset;
+    
 }
 
 #star-content{
