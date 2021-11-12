@@ -22,14 +22,15 @@ const change = () => {
 
         document.getElementsByClassName("bola")[8].style.fill = "black";
 
-        // document.getElementsByClassName("bola")[0].style.stroke = "black";
-        // document.getElementsByClassName("bola")[1].style.stroke = "black";
-        // document.getElementsByClassName("bola")[2].style.stroke = "black";
-        // document.getElementsByClassName("bola")[3].style.stroke = "black";
-        // document.getElementsByClassName("bola")[4].style.stroke = "black";
-        // document.getElementsByClassName("bola")[5].style.stroke = "black";
-        // document.getElementsByClassName("bola")[6].style.stroke = "black";
-        // document.getElementsByClassName("bola")[7].style.stroke = "black";
+        document.getElementsByClassName("bola")[0].style.stroke = "white";
+        document.getElementsByClassName("bola")[1].style.stroke = "white";
+        document.getElementsByClassName("bola")[2].style.stroke = "white";
+        document.getElementsByClassName("bola")[3].style.stroke = "white";
+        document.getElementsByClassName("bola")[4].style.stroke = "white";
+        document.getElementsByClassName("bola")[5].style.stroke = "white";
+        document.getElementsByClassName("bola")[6].style.stroke = "white";
+        document.getElementsByClassName("bola")[7].style.stroke = "white";
+        document.getElementsByClassName("bola")[8].style.stroke = "white";
 
 
         document.getElementsByClassName("orbit-circle")[0].style.stroke = "black";
@@ -57,9 +58,9 @@ const change = () => {
         document.getElementsByClassName("bola")[5].style.stroke = "white";
         document.getElementsByClassName("bola")[6].style.stroke = "white";
         document.getElementsByClassName("bola")[7].style.stroke = "white";
+        document.getElementsByClassName("bola")[8].style.stroke = "white";
 
         document.getElementsByClassName("bola")[8].style.fill = "white";
-    document.getElementsByClassName("bola")[8].style.stroke = "white";
 
         document.getElementsByClassName("orbit-circle")[0].style.stroke = "black";       
     }
@@ -114,12 +115,9 @@ const cambioDos = () =>{
         document.getElementsByClassName("bola")[5].style.stroke = "black";
         document.getElementsByClassName("bola")[6].style.stroke = "black";
         document.getElementsByClassName("bola")[7].style.stroke = "black";
+        document.getElementsByClassName("bola")[8].style.stroke = "black";
 
         document.getElementsByClassName("bola")[8].style.fill = "#fce797";
-    document.getElementsByClassName("bola")[8].style.stroke = "black";
-
-        
-
         document.getElementsByClassName("orbit-circle")[0].style.stroke = "black";
 }
 
@@ -147,36 +145,38 @@ const cambioTres = () =>{
         document.getElementsByClassName("bola")[7].style.stroke = "black";
         document.getElementsByClassName("bola")[8].style.stroke = "black";
 
+        
+
 
         document.getElementsByClassName("orbit-circle")[0].style.stroke = "black";
 }
 
 const cambioCuatro = () =>{
-        document.getElementsByClassName("orbit-circle")[0].style.fill = "black";
-        document.getElementsByClassName("half-circle")[0].style.fill = "black";
+        document.getElementsByClassName("orbit-circle")[0].style.fill = "white";
+        document.getElementsByClassName("half-circle")[0].style.fill = "white";
 
-        document.getElementsByClassName("bola")[0].style.fill = "black";
-        document.getElementsByClassName("bola")[1].style.fill = "black";
-        document.getElementsByClassName("bola")[2].style.fill = "black";
-        document.getElementsByClassName("bola")[3].style.fill = "black";
-        document.getElementsByClassName("bola")[4].style.fill = "black";
-        document.getElementsByClassName("bola")[5].style.fill = "black";
-        document.getElementsByClassName("bola")[6].style.fill = "black";
-        document.getElementsByClassName("bola")[7].style.fill = "black";
+        document.getElementsByClassName("bola")[0].style.fill = "#55efc4";
+    document.getElementsByClassName("bola")[1].style.fill = "#00b894";
+    document.getElementsByClassName("bola")[2].style.fill = "#ffeaa7";
+    document.getElementsByClassName("bola")[3].style.fill = "#fdcb6e";
+    document.getElementsByClassName("bola")[4].style.fill = "#81ecec";
+    document.getElementsByClassName("bola")[5].style.fill = "#00cec9";
+    document.getElementsByClassName("bola")[6].style.fill = "#fab1a0";
+    document.getElementsByClassName("bola")[7].style.fill = "#e17055";
+    document.getElementsByClassName("bola")[8].style.fill = "#74b9ff";
 
-        document.getElementsByClassName("bola")[0].style.stroke = "white";
-        document.getElementsByClassName("bola")[1].style.stroke = "white";
-        document.getElementsByClassName("bola")[2].style.stroke = "white";
-        document.getElementsByClassName("bola")[3].style.stroke = "white";
-        document.getElementsByClassName("bola")[4].style.stroke = "white";
-        document.getElementsByClassName("bola")[5].style.stroke = "white";
-        document.getElementsByClassName("bola")[6].style.stroke = "white";
-        document.getElementsByClassName("bola")[7].style.stroke = "white";
+        document.getElementsByClassName("bola")[0].style.stroke = "black";
+        document.getElementsByClassName("bola")[1].style.stroke = "black";
+        document.getElementsByClassName("bola")[2].style.stroke = "black";
+        document.getElementsByClassName("bola")[3].style.stroke = "black";
+        document.getElementsByClassName("bola")[4].style.stroke = "black";
+        document.getElementsByClassName("bola")[5].style.stroke = "black";
+        document.getElementsByClassName("bola")[6].style.stroke = "black";
+        document.getElementsByClassName("bola")[7].style.stroke = "black";
 
-        document.getElementsByClassName("bola")[8].style.fill = "black";
-    document.getElementsByClassName("bola")[8].style.stroke = "white";
+    document.getElementsByClassName("bola")[8].style.stroke = "black";
 
-        document.getElementsByClassName("orbit-circle")[0].style.stroke = "white";
+        document.getElementsByClassName("orbit-circle")[0].style.stroke = "black";
 }
 
 const cambioCinco = () =>{
@@ -266,17 +266,7 @@ const cambioSiete = () =>{
 
     document.getElementById("body").style.background = "#a29bfe"
 
-    document.getElementsByClassName("star")[0].style.display = "flex";
-    document.getElementsByClassName("star")[1].style.display = "flex";
-    document.getElementsByClassName("star")[2].style.display = "flex";
-    document.getElementsByClassName("star")[3].style.display = "flex";
-    document.getElementsByClassName("star")[4].style.display = "flex";
-    document.getElementsByClassName("star")[5].style.display = "flex";
-    document.getElementsByClassName("star")[6].style.display = "flex";
-    document.getElementsByClassName("star")[7].style.display = "flex";
-    document.getElementsByClassName("star")[8].style.display = "flex";
-    document.getElementsByClassName("star")[9].style.display = "flex";
-    document.getElementsByClassName("star")[10].style.display = "flex";
+    
 
     document.getElementsByClassName("star")[0].style.transition = "4s"
 }

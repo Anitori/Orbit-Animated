@@ -5,12 +5,54 @@ html {
     box-sizing: border-box;
     --bgColorMenu : #1d1d27;
     --duration: 0.4s;  
+    
 }
 
 body{
-    background-color: #fabb88;
+    /* background-color: #fabb88; */
+   height: 100vh;
     transition: .8s;
+    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
     
+}
+
+
+  
+  .ring-before,
+  .ring-after,
+  .ring-bigger-before,
+  .ring-bigger-after {
+    width: 54px;
+    height: 42px;
+    border-radius: 50%;
+    border: 3px solid rgba(#f8c54d, .8);
+    position: absolute;
+    top: 177px;
+    left: 1038px;
+    transform: skew(-54deg);
+    border: solid 1px rgba(255, 255, 255, 0.473)
+  }
+  
+  
+
+  .ring-before,
+  .ring-bigger-before {
+    z-index: 3;
+    clip-path: inset(50% 0 0 0);
+  }
+  
+
+
+.planet{
+    position: absolute;
+  top: 30%;
+  left: 78%;
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(to bottom, rgb(255, 193, 78) 1%, rgb(201, 150, 11) 50%, rgb(58, 38, 1) 100%);
+  border-radius: 50%;
+  transform: rotate(-15deg) translate(-35%, -55%);
 }
 
 #star-content{
@@ -21,11 +63,16 @@ body{
     left: 0px;
 }
 
+
+.bola{
+    stroke-width: 0.5px;
+}
+
 .star{
-    display: none;
+    display: flex;
     background-color: white;
-    width: 8px;
-    height: 8px;
+    width: 3px;
+    height: 3px;
     border-radius: 900px;
     transition: 4s;
    
@@ -108,6 +155,9 @@ body{
     align-items: center;
     justify-content: center;
     border-bottom-right-radius: 10px;
+    box-shadow: 21px 16px 133px -1px rgba(0,0,0,0.41);
+-webkit-box-shadow: 21px 16px 133px -1px rgba(0,0,0,0.41);
+-moz-box-shadow: 21px 16px 133px -1px rgba(0,0,0,0.41);
 }
 
 .botones{
@@ -126,26 +176,44 @@ body{
     transition: 0.5s;
  
  }
-.orbit-box{
+ .shadow{
+     z-index: -10;
+     position: absolute;
+    margin-left: 30px;
+    margin-top: 234px;
     display: flex;
     justify-content: center;
-    width: 500px;
-    height: 500px;
+    width: 150PX;
+    height: 150px;
+    border-radius: 500px;
 
+    box-shadow: 2px 1px 153px 34px rgba(247, 244, 244, 0.42);
+-webkit-box-shadow: 2px 1px 153px 34px rgba(255, 255, 255, 0.096);
+-moz-box-shadow: 2px 1px 153px 34px rgba(0,0,0,0.42);
+ }
+.orbit-box{
+    z-index: 10;
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    width: 180PX;
+    height: 180px;
+    border-radius: 500px;
 }
 
 .orbit-circle{
     transition: var(--duration);
+    
 }
 
 .half-circle{
     transition: var(--duration);
+    
 }
 
 
 .ball{
-    fill-opacity: 80% ;
-    
+    fill-opacity: 90% ;
 
 }
 
